@@ -14,11 +14,47 @@ a[target="_top"] {
 }
 
 div{
-    background-color: brown;
-    max-width: 100px;
-    height: 60px;
+    background-color: rgb(110, 176, 224);
+    
 }
 
 div.p{
     background-color: aquamarine;
+}
+
+.first .paragraph{
+    background-color: rgba(15, 187, 234, 0.834);
+}
+
+div[data-color]{
+    background-color: rgb(214, 238, 6);
+}
+div[data-background]{
+    background-color: rgb(128, 0, 255);
+}
+[class*="foo"]{
+    background-color: fuchsia;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+[class$="file"]{
+    background-color: #3ee918;
+}
+
+div span{
+    background-color: rgb(95, 157, 160);
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.warning{
+    background-color: aquamarine;
+}
+.important{
+    background-color: darkmagenta;
+}
+.important.warning{
+    background-color: hotpink;
+}
+input in-range{
+    border: 5px solid black;
 }
